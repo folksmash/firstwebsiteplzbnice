@@ -7,8 +7,8 @@ function tellmename(){
       document.write(userName)    
   }
 }
-var userAnswer = prompt('Do you wanna zoom?');
 function zoomies(){
+var userAnswer = prompt('Do you wanna zoom?');
   console.log(userAnswer);
   if(userAnswer.toLowerCase() == 'yes'){
       let url = "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2012/11/09/100110389-drive-fast-gettyp.1910x1000.jpg?v=1424731074"
