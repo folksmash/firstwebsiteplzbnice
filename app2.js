@@ -8,7 +8,6 @@ function tellmename(){
   }
 }
 var userAnswer = prompt('Do you wanna zoom?');
-
 function zoomies(){
   console.log(userAnswer);
   if(userAnswer.toLowerCase() == 'yes'){
